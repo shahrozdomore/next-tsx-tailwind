@@ -12,6 +12,7 @@ module.exports = {
       },
 
       colors: {
+        "bg-start": "#38738c",
         "app-bg": "#111827",
         "search-bg": "#4B5563",
         "light-yellow": "#FEF3C7",

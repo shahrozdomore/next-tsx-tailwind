@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-gradient {
+  /* background: transparent radial-gradient(circle at 20% -160%, #51a8ce 0%, #00070a 90%) 0% 0% no-repeat padding-box; */
+
+  /* opacity: 1; */
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  min-height: 100vh;
+  /* background: cover rgb(55, 113, 137); */
+  /* background: no-repeat
+    linear-gradient(
+      166deg,
+      rgba(55, 113, 137, 1) 0.1%,
+      rgba(28, 53, 73, 1) 10%,
+      rgba(15, 23, 41, 1) 24%
+    ); */
+  background: transparent
+    radial-gradient(farthest-corner at 15% -10%, #2e6983 -10%, #00070a 50%) 0%
+    0% no-repeat padding-box;
+}

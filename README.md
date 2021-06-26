@@ -1,4 +1,4 @@
-# Next Typescript TailwindCSS
+# Clubbie Web App
 
 ```bash
 # Install dependencies
